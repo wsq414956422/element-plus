@@ -11,6 +11,7 @@
         placeholder="Please enter a keyword"
         :remote-method="remoteMethod"
         :loading="loading"
+        allow-create
       >
         <el-option
           v-for="item in options"
